@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily:{
+      'bebas': ['Bebas Neue', 'sans-serif'],
+      'mont': ['Montserrat', 'sans-serif']
+    },
     extend: {},
   },
   plugins: [require("daisyui")],
